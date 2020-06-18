@@ -169,4 +169,4 @@ model.compile(optimizer="adam",
 model.summary()
 
 #train the model
-model.fit(X, y, batch_size=3, epochs=4)
+model.fit(X, y, batch_size=3, epochs=20)
